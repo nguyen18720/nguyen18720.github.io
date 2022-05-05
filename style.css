@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.imageGaiXinh {
+  max-width: 200px;
+  height: auto;
+  }
 body {
   font-family: "ROBOTO", sans-serif;
 }
@@ -140,7 +143,7 @@ a {
   .nav h1,
   .slider h1 {
     font-size: 8vw;
-  }
+  } 
 
   .nav h2,
   .slider h2 {
