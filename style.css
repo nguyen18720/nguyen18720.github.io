@@ -122,7 +122,25 @@ a {
   transition: all 0.5s ease;
   font-size: 2vw;
 }
+@media only screen and (max-width: 600px) {
+  .overlay {
+    padding: 1.5rem;
+  }
 
+  .overlay__btns {
+    flex-wrap: wrap;
+  }
+
+  .overlay__btn {
+    width: 100%;
+    font-size: 0.75rem;
+    margin-right: 0;
+  }
+
+  .overlay__btn:first-child {
+    margin-bottom: 1rem;
+  }
+}
 .nav-tab:hover {
   color: #1e1f26;
   background: #03dac6;
