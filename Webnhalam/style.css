@@ -55,6 +55,7 @@ body{
   }
   div.aloalo{
     margin: 30rem 0 0 35rem; 
+    margin-top: 40rem;
   }
   .anhgai2{
     border:2px solid #B8F1B0;
@@ -81,3 +82,88 @@ body{
     right: 530px;
     top:5rem;
   }
+  .button1,.button2,.button3
+  {
+
+    font-size:15px;
+    display:inline-block;
+    color: rgb(158, 75, 75);
+    
+     /* margin-left: 50rem; */
+    /* margin-top: 50rem;  */
+    text-decoration: none;
+    padding: 10px 35px;
+    border: 3px solid #B22727;
+    border-radius: 10px;
+    box-shadow: #6e6363 2px 1px 2px 1px;
+
+  }
+  .button1{
+    position:absolute;
+    top: 320px;
+    right: 60px;
+  }
+  .button2{
+    margin-right: 0px;
+    position:absolute;
+    top: 320px;
+    right: 40px;
+  }
+  .button3{
+    position:absolute;
+    margin-right: 0px;
+    top: 320px;
+    right: 50px;
+  }
+  .button1:hover{
+    animation: pulsate 1s;
+  }
+  .button2:hover{
+    animation: pulsate 1s;
+  }
+  .button3:hover{
+    animation: pulsate 1s;
+  }
+  .anhgai:hover{
+    transform: scale(1.1);
+  }
+  .card-title{
+    position:absolute;
+    top:0px;
+    bottom: 100px;
+    left: 10px;
+    color: #FAF0D7;
+    font-size: 20px;
+    text-shadow:  0 0 1px rgba(0,0,0,.5);
+    
+  }
+  .anhgai2:hover{
+    transform: scale(1.1);
+  }
+  .anhgai3:hover{
+    transform: scale(1.1);
+  }
+  @keyframes pulsate{
+    5%{
+      
+      box-shadow: 
+      0 0 25px #25ce8a,
+      0 0 50px #564f61
+      ;
+      
+    }
+    
+  }
+  div.absolute4{
+    position: absolute;
+    top: 65rem;
+    right: 5rem;
+  }
+
+div.forminput{
+  left:20rem;
+  right : 5rem;
+}
+ .labelten{
+   left:20rem;
+ }
