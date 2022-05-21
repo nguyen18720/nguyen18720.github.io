@@ -74,7 +74,11 @@ body {
   font-family: var(--font-courgett);
   font-size: 1.625rem;
   margin: 0;
+ 
+  
 }
+
+
 
 .c-logo__link {
   color: var(--black);
@@ -109,7 +113,16 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  border-bottom: #2a9d3d 5px solid;
+  border-width: 2px ;
+  border-radius: 20%;
+   
 }
+.c-main-heading:hover {
+  transform: translate3d(0, -10px, 22px);
+  color: #07832a;
+}
+
 
 .c-article__link {
   align-items: center;
@@ -295,20 +308,13 @@ body {
 /**
  * Utilities
  */
- .mySlides {display:none; width:100%;
-  
-  padding: 0 0px 0 0px;
-  border: #fff 1s solid;
-  border-radius: 1%;
-  box-shadow: #fff;
+ /* CHUYEN ANH */
+ .animate-fading{width:100%; animation:mymove 2s infinite;
+border-radius: 1%;
 
 }
- .button-left{left:1%; font-size:20px}
- .button-right{right:1%; font-size:20px }
- .image-button{border:none;display:inline-block;padding:10px;height:50px;vertical-align:middle;overflow:hidden; color:#fff;background:#000;position:absolute;top:calc(50% - 25px); opacity:0.5;}
- .image-button:hover{color:#000;background-color:#ccc;}
- .display-container{position:relative}
-
+ @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+ /* END */
  /* button điện thoại */
  .hotline-phone-ring-wrap {
   position: fixed;
