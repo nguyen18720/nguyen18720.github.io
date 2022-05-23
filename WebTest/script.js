@@ -1,3 +1,4 @@
+//hàm để buttopn chức năng vào trang
 $('.trigger').click(function () {
   $('.page_portfolio').css('opacity', '1');
   $('.page_portfolio').css('clip-path', 'polygon(0 100%, 100% 100%, 100% 0%, 0 0%)');
@@ -8,13 +9,14 @@ $('.trigger').click(function () {
 
   }, 2500);
 });
-
+//
 introComplete = false;
 
 setTimeout(function () {
   introComplete = true;
 }, 2500);
 
+// chưa biết
 var scrollPosition = 0;
 window.addEventListener('wheel', function (e) {
 
@@ -38,7 +40,8 @@ window.addEventListener('wheel', function (e) {
     scrollPosition -= 10;
   }
 });
-
+//
+// kích vào chi tieeset hình
 $('.button').click(function () {
   $(this).parent().addClass('clicked');
   $(this).parent().parent().parent().addClass('clicked');
@@ -249,7 +252,7 @@ const cursorSettings = {
 
 function dynamicCursor(options) {
 
-  document.write('<link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">');
+ document.write('<link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">');
 
   var hold;
   cursor = document.createElement('div');
@@ -267,7 +270,7 @@ function dynamicCursor(options) {
   cursorIcon.style.color = options.iconColor;
   cursorIcon.style.fontSize = options.iconSize;
   cursorIcon.style.opacity = 0;
-  cursorIcon.style.transition = `opacity ${options.expandSpeed}s`;
+  //cursorIcon.style.transition = `opacity ${options.expandSpeed}s`;
 
   cursor.classList.add(options.class);
   cursor.style.boxSizing = 'border-box';
@@ -306,7 +309,7 @@ function dynamicCursor(options) {
 
     cursor.style.top = '0';
     cursor.style.left = '0';
-    cursor.style.transform = `translateX(calc(${x}px - 50%)) translateY(calc(${y}px - 50%))`;
+    //cursor.style.transform = `translateX(calc(${x}px - 200%)) translateY(calc(${y}px - 200%))`;
   };
 
   for (i in options.triggerElements) {
@@ -350,7 +353,7 @@ function dynamicCursor(options) {
 }
 
 dynamicCursor(cursorSettings);
-
+// button chuuyeern về trang chủ
 $('.back').click(function () {
   $(this).parent().parent().removeClass('expand');
 });
