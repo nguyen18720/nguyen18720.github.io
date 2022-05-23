@@ -106,7 +106,7 @@ body {
 }
 
 .c-main-heading {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: var(--font-light);
   letter-spacing: 0.1875rem;
   margin: 3.75rem 0;
@@ -115,7 +115,7 @@ body {
   font-weight: bold;
   border-bottom: #2a9d3d 5px solid;
   border-width: 2px ;
-  border-radius: 20%;
+  border-radius: 15%;
    
 }
 .c-main-heading:hover {
@@ -310,7 +310,9 @@ body {
  */
  /* CHUYEN ANH */
  .animate-fading{width:100%; animation:mymove 2s infinite;
-border-radius: 1%;
+border-radius: 0%;
+padding: 0 0 0 0px;
+box-shadow: 2px 2px 2px 4px #a8a8a8;
 
 }
  @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
